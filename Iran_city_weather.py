@@ -1,5 +1,5 @@
 #####################################################
-# Bot Name Iran Tool Bot                            #
+# Bot Name Iran City Weather                        #
 # Version : 1.0                                     #
 # Bot Programmer : Iraj Mirzazadeh                  #
 # Language : Python3                                #
@@ -30,7 +30,7 @@ wtok=Open Weather Token
 
 #commands
 def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id,text="به ربات جعبه ابزار خوش آمدید 😊")
+    context.bot.send_message(chat_id=update.effective_chat.id,text="به ربات آب و هوای مراکز استان خوش آمدید 😊")
     print("start")
 def about(update,context):
     context.bot.send_message(chat_id=update.effective_chat.id,text="🎁 ایرج میرزازاده - ربات تلگرام - پایتون - متن باز 🎁")
