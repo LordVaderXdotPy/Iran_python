@@ -25,8 +25,8 @@ import json
 
 
 #tokens
-bottok='1285793973:AAErnAypLeY6H1nR6tR0emwis05ByVvnBOo'
-wtok='90d43f5cd589307cc368e317b6d4d198'
+bottok=Telegram Bot Token
+wtok=Open Weather Token
 
 #commands
 def start(update, context):
