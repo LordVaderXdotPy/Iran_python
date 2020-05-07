@@ -50,7 +50,6 @@ def button(update,context):
     url=urllib.request.urlopen('http://api.openweathermap.org/data/2.5/weather?q='+str(query.data)+'&appid='+str(wtok))
     dict=json.loads(url.read())
     city="City : "+str(dict['name'])
-    print(dict['name'])
     context.bot.send_message(chat_id=update.effective_chat.id,text=city)
     degree=int(dict['main']['temp'])-273
     if degree<0:
