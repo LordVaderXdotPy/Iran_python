@@ -26,7 +26,7 @@ import json
 from googletrans import Translator
 
 # Telegram bot Token
-bottok='1278865873:AAHKf8_jwV_W_rINRhdcsCYh-58i-90pmX4'
+bottok=Telegram Bot Token
 
 # Global flag
 c=0
