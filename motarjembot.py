@@ -46,7 +46,8 @@ def tarjom(update,context):
     if matn[1:len(matn)] != "tarjom":
         c=c+1
         translator=Translator(service_urls=['translate.google.com'])
-        tarjom=translator.translate(matn,dest='fa')
+        tarjom=translator.translate(matn,dest='en')
+        tarjom=translator.translate(tarjom.text,dest='fa')
         context.bot.send_message(chat_id=update.effective_chat.id,text=tarjom.text)
 
 mybot = telegram.Bot(token=bottok)
